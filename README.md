@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/darrylbartlett/configure-ad/assets/159499839/0ef3d6a9-abb7-490b-aab1-b19002987fd4"/>
+<img src="https://github.com/darrylbartlett/network-shares/assets/159499839/f3dd7112-ad2b-471c-9348-6c6ecac61e27)"/>
 </p>
 
 <h1>Active Directory (On-premise) Setup</h1>

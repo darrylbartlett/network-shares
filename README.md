@@ -39,3 +39,21 @@ This is a brief tutorial outlining shared permissions on a network.<br />
 
 
 
+<p>Use the following criteria to setup Share permissions for Domain Users:</p>
+
+- Read-access folder - Read permission
+- Write-access folder – Read/Write permissions
+- No-access folder – access given only to Domain Admins with Read/Write permissions
+
+<p>Right-click on each folder and select Properties.</p>
+<p>Select the Sharing tab in the Properties window.</p>
+<p>Click the Share… button.</p>
+<p>Type in Domain Users and click the Add button. For the No-access folder, type in Domain Admins, not Domain Users.</p>
+
+<p>
+<img src="https://github.com/darrylbartlett/network-shares/assets/159499839/96b8ea19-8401-48a9-8832-fe64e2226e82"/>
+</p>
+<br />
+
+
+

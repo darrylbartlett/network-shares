@@ -2,14 +2,13 @@
 <img src="https://github.com/darrylbartlett/network-shares/assets/159499839/f3dd7112-ad2b-471c-9348-6c6ecac61e27)"/>
 </p>
 
-<h1>Active Directory (On-premise) Setup</h1>
-This tutorial outlines the setup of on-premise Active Directory, managing different containers and user accounts, and connecting to a client computer .<br />
+<h1>Network File Shares and Permissions</h1>
+This is a brief tutorial outlining shared permissions on a network.<br />
 
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure for creating Virtual Machines
-- Active Directory (On-premise)
 
 <h2>Operating System Used</h2>
 
@@ -20,15 +19,23 @@ This tutorial outlines the setup of on-premise Active Directory, managing differ
 
 - Creation of an Azure Virtual Machine (VM) with Windows 10 Pro as a client computer
 - Creation of an Azure Virtual Machine (VM) with Windows Server 2022 as a domain controller
-    - This domain controller has been setup with a static IP on its virtual network interface card
 - Connecting to the VMs using Remote Desktop Connection with their created public IPs, usernames and passwords
 <br />
 
-<h2>Setup a Connection Between the Client and Domain Controller</h2>
 
-<p>Using Remote Desktop Connection, log into the Client virtual machine.</p>
-<p>'Ping -t' the domain controller VM from the Command Line. Use its private IP.</p>
+<h2>Create file shares with different permissions</h2>
+
+<p>Login to the domain controller with your admin account. On the domain controller, create 4 folders on the C: drive:</p>
+
+- Read-access
+- Write-access
+- No-access
+- Accounting
+
 <p>
-<img src="https://github.com/darrylbartlett/configure-ad/assets/159499839/c595fc7d-d1f6-431e-a955-d2c83c9b3895"/>
+<img src="https://github.com/darrylbartlett/network-shares/assets/159499839/add5fc82-ed24-47ca-8a9f-db2f4177a891"/>
 </p>
 <br />
+
+
+

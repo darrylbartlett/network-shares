@@ -116,7 +116,7 @@
 <h2>Adding an ACCOUNTANTS Security Group</h2>
 
 <p>Go back to the domain controller.</p>
-<p>In Active Directory Users and Computers, create a new security group.</p>
+<p>In Active Directory Users and Computers, create a new security group. Right-click on the domain name and on the pop-up menu, select User. Then select Group.</p>
 <p>
 <img src="https://github.com/darrylbartlett/network-shares/assets/159499839/0ad6a22d-de97-4ffa-8bff-f347c5efd825"/>
 </p>

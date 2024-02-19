@@ -89,6 +89,7 @@
 <h2>Test the File Share Access with a Normal User Account</h2>
 
 <p>Go to the Client computer.</p>
+<p>Remember: John Doe (john_user) should already be logged in.</p>
 <p>Open File Explorer and type in \\dc-1 as the path.</p>
 <p>
 <img src="https://github.com/darrylbartlett/network-shares/assets/159499839/c58e4b34-82f9-4de7-830c-d6683e18a6ec"/>

@@ -154,7 +154,7 @@
 <br />
 
 <p>Log out John Doe on the Client computer and log him back in.</p>
-<p>Go ahead and access the Accounting folder at \\dc-1 in File Explorer, and add a document.</p>
+<p>With John Doe logged in, go ahead and access the Accounting folder at \\dc-1 in File Explorer, and add a document.</p>
 <p>
 <img src="https://github.com/darrylbartlett/network-shares/assets/159499839/6487721b-3452-4bd2-b583-4e698465324d"/>
 </p>
